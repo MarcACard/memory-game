@@ -1,0 +1,37 @@
+/* Game Colors 
+Yellow: #fff783
+Green: #60ce80
+*/
+
+body { 
+  
+}
+
+.wrapper { 
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 960px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  flex-direction: column;
+
+}
+
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#game div {
+  border: 1px solid black;
+  border-radius: 10px;
+  /*width: 15%;*/
+  width: calc(100% * (1/5)) ;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
